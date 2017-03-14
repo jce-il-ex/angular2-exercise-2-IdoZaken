@@ -6,17 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-menu.component.css']
 })
 export class NavMenuComponent implements OnInit {
- itemList = 
-    [{id:1, txt:"main"} ,
-     {id:2, txt:"search"},
-     {id:3, txt:"news"},
-     {id:4, txt:"about"}]
 
+  myList = [
+    {id:1, txt: "home"},
+    {id:2, txt: "news"},
+    {id:3, txt: "contacts"},
+    {id:4, txt: "about"},
+    ]
   constructor() { }
 
   ngOnInit() {
-
-    
   }
 
 }
